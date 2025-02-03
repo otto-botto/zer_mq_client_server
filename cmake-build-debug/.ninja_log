@@ -1,17 +1,7 @@
 # ninja log v6
-1	46	1738453968032131214	zero_mq_client_server	a8f88cbe982086bf
-1	28	1738453809930614225	CMakeFiles/zero_mq_client_server.dir/zmq_server.c.o	7a6bc6a237a006ac
-1	30	1738456708989450260	CMakeFiles/zero_mq_client.dir/zmq_client.c.o	c2e4cadb9eab773f
-0	26	1738449721908069125	CMakeFiles/zer_mq_client.dir/zmq_client.c.o	ea99f113493d5f48
-1	20	1738456745112664112	build.ninja	e5f08715ba97e357
-0	41	1738456750435696802	zero_mq_client	43723813ca0ce6d1
-1	29	1738457117882520268	CMakeFiles/zero_mq_client_server.dir/zmq_server.c.o	7a6bc6a237a006ac
-29	68	1738457117910520517	zero_mq_client_server	a8f88cbe982086bf
-1	29	1738457122639562558	CMakeFiles/zero_mq_client.dir/zmq_client.c.o	c2e4cadb9eab773f
-29	68	1738457122667562807	zero_mq_client	43723813ca0ce6d1
-0	27	1738457175797042572	CMakeFiles/zero_mq_client_server.dir/zmq_server.c.o	7a6bc6a237a006ac
-27	67	1738457175824042819	zero_mq_client_server	a8f88cbe982086bf
-1	29	1738457283275050679	CMakeFiles/zero_mq_client_server.dir/zmq_server.c.o	7a6bc6a237a006ac
 29	70	1738457283303050947	zero_mq_client_server	a8f88cbe982086bf
+1	29	1738457283275050679	CMakeFiles/zero_mq_client_server.dir/zmq_server.c.o	7a6bc6a237a006ac
 1	31	1738457287182088174	CMakeFiles/zero_mq_client.dir/zmq_client.c.o	c2e4cadb9eab773f
+0	26	1738449721908069125	CMakeFiles/zer_mq_client.dir/zmq_client.c.o	ea99f113493d5f48
+1	20	1738545086643557644	build.ninja	e5f08715ba97e357
 31	71	1738457287212088463	zero_mq_client	43723813ca0ce6d1

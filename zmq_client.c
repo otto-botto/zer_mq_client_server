@@ -6,9 +6,10 @@
 #include <zmq.h>
 #include <string.h>
 #include <unistd.h>
+#include "zhelpers.h"
 
 int main(void) {
-    printf("Connecting to CS361 server...\n");
+    printf("Connecting to server at port 5555...\n");
     void *context = zmq_ctx_new();
     void *requester = zmq_socket(context, ZMQ_REQ);
     zmq_connect(requester, "tcp://localhost:5555");

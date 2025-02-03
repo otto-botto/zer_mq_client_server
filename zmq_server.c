@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <assert.h>
+#include "zhelpers.h"
 
 int main(int argc, char **argv) {
     // Socket to talk to clients
