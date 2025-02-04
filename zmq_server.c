@@ -16,10 +16,10 @@ int main(int argc, char **argv) {
 
     while(1) {
         char buffer [10];
-        zmq_recv(responder, buffer, 10, 0); //enough buffer to handle Hello 0...\0
+        s_recv(responder);
         printf("Received Hello\n");
         sleep(1);       // Do some 'work'
-        zmq_send(responder, "This is a message from CS361", 28, 0);
+        s_send(responder, "This is a message from CS361");
     }
     return 0;
 }

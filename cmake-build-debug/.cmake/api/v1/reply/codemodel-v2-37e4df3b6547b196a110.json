@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "zero_mq_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zero_mq_client-Debug-d733b5f120f542f2a624.json",
+					"jsonFile" : "target-zero_mq_client-Debug-a7fb36a8b6fe38d2c1e5.json",
 					"name" : "zero_mq_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zero_mq_client_server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zero_mq_client_server-Debug-be6017d9fcaf215857b4.json",
+					"jsonFile" : "target-zero_mq_client_server-Debug-c212b1d9b556c85ea430.json",
 					"name" : "zero_mq_client_server",
 					"projectIndex" : 0
 				}

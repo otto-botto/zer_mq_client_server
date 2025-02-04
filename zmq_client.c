@@ -19,8 +19,8 @@ int main(void) {
     for(requester_number = 0; requester_number != 10; requester_number++) {
         char buffer[30];
         printf("Sending Hello %d...\n", requester_number);
-        zmq_send(requester, "Hello", 5, 0);
-        zmq_recv(requester, buffer, 30, 0);
+        s_send(requester, "Hello");
+        s_recv(requester);
         printf("Received This is a message from CS361 %d\n", requester_number);
     }
     zmq_close(requester);
