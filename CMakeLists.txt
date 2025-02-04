@@ -15,13 +15,17 @@ find_library(ZeroMQ_LIBRARY
 )
 
 
-add_executable(zero_mq_client_server zmq_server.c
-        )
+add_executable(zero_mq_client_server zmq_server.c)
 
-target_include_directories(zero_mq_client_server PUBLIC ${ZeroMQ_INCLUDE_DIR})
-target_link_libraries(zero_mq_client_server PUBLIC ${ZeroMQ_LIBRARY})
+target_include_directories(zero_mq_client_server PUBLIC ${ZeroMQ_INCLUDE_DIR}
+)
+target_link_libraries(zero_mq_client_server PUBLIC ${ZeroMQ_LIBRARY}
+)
 
-add_executable(zero_mq_client zmq_client.c
-        )
+add_executable(zero_mq_client zmq_client.c)
 target_include_directories(zero_mq_client PUBLIC ${ZeroMQ_INCLUDE_DIR})
 target_link_libraries(zero_mq_client PUBLIC ${ZeroMQ_LIBRARY})
+
+add_executable(zero_mq_version zmq_version.c)
+target_include_directories(zero_mq_version PUBLIC ${ZeroMQ_INCLUDE_DIR})
+target_link_libraries(zero_mq_version PUBLIC ${ZeroMQ_LIBRARY})

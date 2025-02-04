@@ -104,6 +104,38 @@ build zero_mq_client: C_EXECUTABLE_LINKER__zero_mq_client_Debug CMakeFiles/zero_
   TARGET_FILE = zero_mq_client
   TARGET_PDB = zero_mq_client.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target zero_mq_version
+
+
+#############################################
+# Order-only phony target for zero_mq_version
+
+build cmake_object_order_depends_target_zero_mq_version: phony || .
+
+build CMakeFiles/zero_mq_version.dir/zmq_version.c.o: C_COMPILER__zero_mq_version_unscanned_Debug /home/lora/CLionProjects/CS361/zero_mq_client_server/zmq_version.c || cmake_object_order_depends_target_zero_mq_version
+  DEP_FILE = CMakeFiles/zero_mq_version.dir/zmq_version.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zero_mq_version.dir
+  OBJECT_FILE_DIR = CMakeFiles/zero_mq_version.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zero_mq_version
+
+
+#############################################
+# Link the executable zero_mq_version
+
+build zero_mq_version: C_EXECUTABLE_LINKER__zero_mq_version_Debug CMakeFiles/zero_mq_version.dir/zmq_version.c.o | /usr/local/lib/libzmq.so
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libzmq.so
+  OBJECT_DIR = CMakeFiles/zero_mq_version.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zero_mq_version
+  TARGET_PDB = zero_mq_version.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,7 +170,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug
 
-build all: phony zero_mq_client_server zero_mq_client
+build all: phony zero_mq_client_server zero_mq_client zero_mq_version
 
 # =============================================================================
 # Built-in targets

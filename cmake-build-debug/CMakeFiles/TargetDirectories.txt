@@ -1,4 +1,5 @@
 /home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug/CMakeFiles/zero_mq_client_server.dir
 /home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug/CMakeFiles/zero_mq_client.dir
+/home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug/CMakeFiles/zero_mq_version.dir
 /home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
