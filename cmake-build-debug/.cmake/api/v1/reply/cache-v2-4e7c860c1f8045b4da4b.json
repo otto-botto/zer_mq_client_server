@@ -1014,18 +1014,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "CZMQ_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for CZMQ."
-				}
-			],
-			"type" : "PATH",
-			"value" : "CZMQ_DIR-NOTFOUND"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig",
 			"properties" : 
 			[
@@ -1370,16 +1358,28 @@
 			"value" : "/usr/bin/pkg-config"
 		},
 		{
-			"name" : "ZeroMQ_DIR",
+			"name" : "Python3_EXECUTABLE",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for ZeroMQ."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "PATH",
-			"value" : "ZeroMQ_DIR-NOTFOUND"
+			"type" : "UNINITIALIZED",
+			"value" : "/usr/bin/python3.10"
+		},
+		{
+			"name" : "Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/usr/bin/python3.10"
 		},
 		{
 			"name" : "ZeroMQ_INCLUDE_DIR",
@@ -1428,66 +1428,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "czmq_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for czmq."
-				}
-			],
-			"type" : "PATH",
-			"value" : "czmq_DIR-NOTFOUND"
-		},
-		{
-			"name" : "libczmq_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for libczmq."
-				}
-			],
-			"type" : "PATH",
-			"value" : "libczmq_DIR-NOTFOUND"
-		},
-		{
-			"name" : "zero_mq_client_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/lora/CLionProjects/CS361/zero_mq_client_server/cmake-build-debug"
-		},
-		{
-			"name" : "zero_mq_client_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "zero_mq_client_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/lora/CLionProjects/CS361/zero_mq_client_server"
 		},
 		{
 			"name" : "zero_mq_client_server_BINARY_DIR",
